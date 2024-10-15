@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+}
+.bg {
+    width: 92%;
+    background-color: #82e7e7;
+    margin-left: -12%;
+    padding: 10%;
+
+}
+
+    
+.logo {
+    margin-top: -10%;
+    width: 80%;
+}
+body {
+    width: 90%;
+    margin: 10%;
+}
+body li {
+    margin-left: -10%;
+    width: 90%;
+}
+body p {
+    font-size: 1.1em;
+}
+footer {
+    background-color: lightblue;
+    width: 111%;
+    margin: auto auto -30% -11%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.direitaft {
+    display: flex;
+    align-items: center;
+    
+}
+.meio {
+    display: flex;
+    align-items: center;
+}
+footer img{
+    display: flex;
+    height: 25px;
+}
