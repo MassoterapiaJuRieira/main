@@ -7,8 +7,42 @@ header {
 .Logo {
     width: 90%;
 }
-.Conceito{
-    text-align: center;
+.contatos{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2em;
+    margin: 10% auto auto auto;
+
+}
+.contatos img{
+
+    margin-bottom: 0.5em;
+}
+.sessao {
+    height: 8em;
+    width: 105%;
+    margin-left: -3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/Imagens/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10em;
+}
+.sessao button{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(73, 245, 179);
+    color: black;
+    border-radius: 10px;
+}
+
+.conceito{
+    text-align: left;
     padding: 30px;
     
 }
@@ -17,26 +51,29 @@ a {
     color: black;
 }
 section {
+    height: 116%;
     display: flex;
-    width: 102%;
-    margin-right: 10px;
+    width: 106%;
+    margin: auto auto -100% -10px;
+    background-image: url(/Imagens/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .esquerda {
-    padding: 2%;
-    margin-left: -8px;
+    padding: 0%;
+    margin-left: -10px;
     width: 50%;
     flex-direction: column;
-    background-color: #82e7e7;
 }
 .direita {
-    padding: 2%;
+    padding: 0%;
     width: 50%;
     flex-direction: column;
-    background-color: #82e7e7;
 }
 .txt-direita {
     width: 100%;
-    height: 22%;
+    height: 20%;
 }
 .direita button{
     height: 30%;
@@ -47,43 +84,4 @@ section {
     width: 80%;
     border: 2px solid;
     margin-left: 10%;
-}
-
-footer {
-    background-color: lightblue;
-    width: 104%;
-    margin-left: -8px;
-    display: inline-block;
-    margin-bottom: -100%;
-
-}
-
-.contatos{
-    display: flex;
-    justify-content: space-around;
-}
-.creditos {
-    font-style: italic;
-    width: 100%;
-    font-weight: bold;
-    font-size: 0.8em;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    line-height: 0%;
-    letter-spacing: 0.18em;
-    
-}
-.direitaft {
-    display: flex;
-    align-items: center;
-    
-}
-.meio {
-    display: flex;
-    align-items: center;
-}
-footer img{
-    display: flex;
-    height: 25px;
 }

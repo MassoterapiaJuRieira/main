@@ -1,12 +1,17 @@
 header {
     width: 100%;
+    background-size: cover;
+    
 }
 .bg {
     width: 92%;
-    background-color: #82e7e7;
     margin-left: -12%;
     padding: 10%;
-
+    background-image: url(../Imagens/bgvert.avif);
+    background-size:cover;
+    background-position: center;
+    background-repeat:repeat;
+    
 }
 
     
@@ -17,32 +22,10 @@ header {
 body {
     width: 90%;
     margin: 10%;
+    margin-bottom: 0%;
 }
 body li {
     margin-left: -10%;
-    width: 90%;
-}
-body p {
+    text-align: left;
     font-size: 1.1em;
-}
-footer {
-    background-color: lightblue;
-    width: 111%;
-    margin: auto auto -30% -11%;
-    display: flex;
-    justify-content: space-around;
-
-}
-.direitaft {
-    display: flex;
-    align-items: center;
-    
-}
-.meio {
-    display: flex;
-    align-items: center;
-}
-footer img{
-    display: flex;
-    height: 25px;
 }
