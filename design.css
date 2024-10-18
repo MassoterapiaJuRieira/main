@@ -27,7 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(Imagens/BG.jpg);
+    background-image: url(./Imagens/BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ section {
     display: flex;
     width: 106%;
     margin: auto auto -100% -10px;
-    background-image: url(Imagens/BG.jpg);
+    background-image: url(./Imagens/BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
