@@ -52,7 +52,6 @@ a {
 }
 section {
     height: 116%;
-    display: flex;
     width: 106%;
     margin: auto auto -100% -10px;
     background-image: url(./Imagens/BG.jpg);
@@ -60,6 +59,27 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
+.esculpe-detox {
+    padding: 2%;
+    margin: -12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.esculpe-detox img {
+    margin: 5%;
+    width: 50%;
+    border: 2px solid;
+}
+.esculpe-detox button {
+    background-color: pink;
+    border-radius: 5%;
+    margin-bottom: 10%;
+}
+.massagens {
+    display: flex;
+}
+
 .esquerda {
     padding: 0%;
     margin-left: -10px;
