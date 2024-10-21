@@ -1,4 +1,7 @@
-
+.body { 
+    width: 100%;
+    
+}
 header {
     width: 90%;
     display: flex;
@@ -6,6 +9,9 @@ header {
 }
 .Logo {
     width: 90%;
+}
+.agende {
+    width: 100%;
 }
 .contatos{
 
@@ -22,8 +28,7 @@ header {
 }
 .sessao {
     height: 8em;
-    width: 105%;
-    margin-left: -3%;
+    width: 106%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +37,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 10em;
+    margin-left: -3%;
 }
 .sessao button{
     height: 40%;
@@ -50,15 +56,39 @@ a {
     text-decoration:none;
     color: black;
 }
+
 section {
-    height: 116%;
-    display: flex;
-    width: 106%;
-    margin: auto auto -100% -10px;
     background-image: url(./Imagens/BG.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: auto -8px -100% -10px;
+
+}
+.massagens {
+    height: 116%;
+    display: flex;
+    width: 100%;
+    margin: auto -8px -100% -10px;
+  
+}
+.esculpe-detox {
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    margin: 5% auto 10% auto;
+    
+}
+.esculpe-detox img{
+    display: flex;
+    width: 50%;
+    margin: 5% auto 5% auto;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+.esculpe-detox button {
+    background-color: pink;
+    width: 50%;
 }
 .esquerda {
     padding: 0%;
@@ -70,6 +100,7 @@ section {
     padding: 0%;
     width: 50%;
     flex-direction: column;
+    margin-left: 5%;
 }
 .txt-direita {
     width: 100%;
@@ -83,5 +114,6 @@ section {
 .imagens-planos{
     width: 80%;
     border: 2px solid;
-    margin-left: 10%;
+    border-radius: 10%;
+    margin-left: 20%;
 }
