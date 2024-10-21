@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    background-size: cover;
+    
+}
+.bg {
+    width: 92%;
+    margin-left: -12%;
+    padding: 10%;
+    background-image: url(../Imagens/bgvert.avif);
+    background-size:cover;
+    background-position: center;
+    background-repeat:repeat;
+    
+}
+
+    
+.logo {
+    margin-top: -10%;
+    width: 80%;
+}
+body {
+    width: 90%;
+    margin: 10%;
+    margin-bottom: 0%;
+}
+body li {
+    margin-left: -10%;
+    text-align: left;
+    font-size: 1.1em;
+}
