@@ -24,8 +24,15 @@ body {
     margin: 10%;
     margin-bottom: 0%;
 }
-body li {
-    margin-left: -10%;
-    text-align: left;
-    font-size: 1.1em;
+@media (min-width: 768px){
+    .space{
+        text-align: justify;
+    }
+    .space h1{
+        font-size: 3em;
+    }
+    .space p{
+        font-size: 1.5em;
+    }
 }
+

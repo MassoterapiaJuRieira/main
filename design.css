@@ -166,15 +166,26 @@ section {
 
 @media (min-width: 768px){
     main {
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
     main p{
-        font-size: 1.1em
+        font-size: 1.5em
     }
-    main button {
+    .esculpe-detox button {
         font-size: 1.2em;
+        border-radius: 1.2em;
     }
     .txt-direita {
-        margin-bottom: -3%;
+        margin-top: 12%;
+        font-size: 1.1em;
+    }
+    .txt-direita h1{
+        width: 100%;
+        height: 23%;
+        padding-top: 6%;
+    }
+    .txt-direita button{
+        width: 100%;
+        height: 30%;
     }
 }
